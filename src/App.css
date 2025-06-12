@@ -3,3 +3,7 @@
 body {
   background-color: black;
 }
+
+@theme {
+  --color-AshBlack: #121212;
+}
