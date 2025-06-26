@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="flex  w-full  h-screen text-white">
         <Navbar />
-        <div className="flex fixed w-full h-150 bottom-25 top-20    text-white">
+        <div className="flex fixed w-full bottom-25 top-20 text-white">
           <Library />
           <MusicArea />
         </div>

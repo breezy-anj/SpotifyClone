@@ -7,3 +7,30 @@ body {
 @theme {
   --color-AshBlack: #121212;
 }
+
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  /* For vertical scrollbar */
+  height: 12px;
+  /* For horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Light gray background */
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: dimgray;
+  /* Darker gray thumb */
+
+
+  /* Add some padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+  /* Darker thumb on hover */
+}
