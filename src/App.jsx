@@ -6,7 +6,7 @@ import MediaPlayback from "./assets/mediaPlayback.jsx";
 function App() {
   return (
     <>
-      <div className="flex w-full  h-screen text-white">
+      <div className="flex  w-full  h-screen text-white">
         <Navbar />
         <div className="flex fixed w-full h-150 bottom-25 top-20    text-white">
           <Library />
